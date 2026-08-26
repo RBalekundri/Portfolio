@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: white;
+    padding: 15px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #555;
+    color: white;
+    padding: 50px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-img img {
+    width: 250px;
+}
+
+.about-text {
+    margin-left: 40px;
+}
+
+.about-text button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
